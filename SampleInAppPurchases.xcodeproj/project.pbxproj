@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		76724F2728508CC700D16AAA /* Numberic+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76724F2628508CC700D16AAA /* Numberic+Extensions.swift */; };
+		76724F292850953F00D16AAA /* NotificationCenter+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76724F282850953F00D16AAA /* NotificationCenter+Extensions.swift */; };
 		76B9CC51284F292D002E80AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B9CC50284F292D002E80AA /* AppDelegate.swift */; };
 		76B9CC5A284F292E002E80AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76B9CC59284F292E002E80AA /* Assets.xcassets */; };
 		76B9CC5D284F292E002E80AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76B9CC5B284F292E002E80AA /* LaunchScreen.storyboard */; };
@@ -14,12 +16,27 @@
 		76B9CC81284F4333002E80AA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B9CC52284F292D002E80AA /* SceneDelegate.swift */; };
 		76B9CC89284F446E002E80AA /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B9CC88284F446E002E80AA /* R.generated.swift */; };
 		76B9CCA9284F525B002E80AA /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76B9CCA8284F525B002E80AA /* Home.storyboard */; };
+		76BFA7F628504155009F5D00 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 76BFA7F828504155009F5D00 /* Localizable.strings */; };
+		76BFA7FC285041FE009F5D00 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BFA7FB285041FE009F5D00 /* UIView+Extensions.swift */; };
+		76BFA7FE2850425F009F5D00 /* String+Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BFA7FD2850425F009F5D00 /* String+Extentions.swift */; };
+		76BFA80328504F26009F5D00 /* StoreService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BFA80228504F26009F5D00 /* StoreService.swift */; };
+		76BFA8062850551E009F5D00 /* PointPurchasesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BFA8052850551E009F5D00 /* PointPurchasesViewController.swift */; };
+		76BFA80828505535009F5D00 /* PointPurchases.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76BFA80728505535009F5D00 /* PointPurchases.storyboard */; };
+		76BFA80B285058B2009F5D00 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BFA80A285058B2009F5D00 /* BaseViewController.swift */; };
+		76BFA82D2850802C009F5D00 /* CustomNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BFA82C2850802C009F5D00 /* CustomNavigationBar.swift */; };
+		76BFA82F2850815C009F5D00 /* UIApplication+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BFA82E2850815C009F5D00 /* UIApplication+Extensions.swift */; };
+		76BFA83128508378009F5D00 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BFA83028508378009F5D00 /* Utils.swift */; };
+		76BFA836285087B8009F5D00 /* PointCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BFA834285087B8009F5D00 /* PointCell.swift */; };
+		76BFA837285087B8009F5D00 /* PointCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76BFA835285087B8009F5D00 /* PointCell.xib */; };
+		76BFA83928508C01009F5D00 /* UITableView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BFA83828508C01009F5D00 /* UITableView+Extensions.swift */; };
 		A0DD217D0A1E6E96B465C531 /* Pods_SampleInAppPurchases.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB150ADB8A0C9200B72C2E39 /* Pods_SampleInAppPurchases.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		36167592F207E306F1A5C7D2 /* Pods-SampleInAppPurchases.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleInAppPurchases.debug.xcconfig"; path = "Target Support Files/Pods-SampleInAppPurchases/Pods-SampleInAppPurchases.debug.xcconfig"; sourceTree = "<group>"; };
 		5736B96E1C394CEB3C89E8CE /* Pods-SampleInAppPurchases.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleInAppPurchases.release.xcconfig"; path = "Target Support Files/Pods-SampleInAppPurchases/Pods-SampleInAppPurchases.release.xcconfig"; sourceTree = "<group>"; };
+		76724F2628508CC700D16AAA /* Numberic+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Numberic+Extensions.swift"; sourceTree = "<group>"; };
+		76724F282850953F00D16AAA /* NotificationCenter+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NotificationCenter+Extensions.swift"; sourceTree = "<group>"; };
 		76B9CC4D284F292D002E80AA /* SampleInAppPurchases.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleInAppPurchases.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76B9CC50284F292D002E80AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		76B9CC52284F292D002E80AA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -29,6 +46,20 @@
 		76B9CC6B284F378B002E80AA /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		76B9CC88284F446E002E80AA /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
 		76B9CCA8284F525B002E80AA /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		76BFA7F728504155009F5D00 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		76BFA7F928504156009F5D00 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		76BFA7FB285041FE009F5D00 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		76BFA7FD2850425F009F5D00 /* String+Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extentions.swift"; sourceTree = "<group>"; };
+		76BFA80228504F26009F5D00 /* StoreService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreService.swift; sourceTree = "<group>"; };
+		76BFA8052850551E009F5D00 /* PointPurchasesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointPurchasesViewController.swift; sourceTree = "<group>"; };
+		76BFA80728505535009F5D00 /* PointPurchases.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PointPurchases.storyboard; sourceTree = "<group>"; };
+		76BFA80A285058B2009F5D00 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		76BFA82C2850802C009F5D00 /* CustomNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationBar.swift; sourceTree = "<group>"; };
+		76BFA82E2850815C009F5D00 /* UIApplication+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extensions.swift"; sourceTree = "<group>"; };
+		76BFA83028508378009F5D00 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		76BFA834285087B8009F5D00 /* PointCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointCell.swift; sourceTree = "<group>"; };
+		76BFA835285087B8009F5D00 /* PointCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PointCell.xib; sourceTree = "<group>"; };
+		76BFA83828508C01009F5D00 /* UITableView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Extensions.swift"; sourceTree = "<group>"; };
 		FB150ADB8A0C9200B72C2E39 /* Pods_SampleInAppPurchases.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SampleInAppPurchases.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -73,6 +104,9 @@
 		76B9CC4F284F292D002E80AA /* SampleInAppPurchases */ = {
 			isa = PBXGroup;
 			children = (
+				76BFA809285058A1009F5D00 /* Bases */,
+				76BFA7FA285041C3009F5D00 /* Extensions */,
+				76BFA7F328503F8B009F5D00 /* Localizations */,
 				76B9CC8B284F4AD9002E80AA /* Modules */,
 				76B9CC88284F446E002E80AA /* R.generated.swift */,
 				76B9CC50284F292D002E80AA /* AppDelegate.swift */,
@@ -96,9 +130,61 @@
 		76B9CC8B284F4AD9002E80AA /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				76BFA804285054F5009F5D00 /* Buy Coin */,
 				76B9CC6A284F3776002E80AA /* Home */,
+				76BFA80228504F26009F5D00 /* StoreService.swift */,
 			);
 			path = Modules;
+			sourceTree = "<group>";
+		};
+		76BFA7F328503F8B009F5D00 /* Localizations */ = {
+			isa = PBXGroup;
+			children = (
+				76BFA7F828504155009F5D00 /* Localizable.strings */,
+			);
+			path = Localizations;
+			sourceTree = "<group>";
+		};
+		76BFA7FA285041C3009F5D00 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				76BFA7FB285041FE009F5D00 /* UIView+Extensions.swift */,
+				76BFA7FD2850425F009F5D00 /* String+Extentions.swift */,
+				76BFA82E2850815C009F5D00 /* UIApplication+Extensions.swift */,
+				76BFA83028508378009F5D00 /* Utils.swift */,
+				76BFA83828508C01009F5D00 /* UITableView+Extensions.swift */,
+				76724F2628508CC700D16AAA /* Numberic+Extensions.swift */,
+				76724F282850953F00D16AAA /* NotificationCenter+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		76BFA804285054F5009F5D00 /* Buy Coin */ = {
+			isa = PBXGroup;
+			children = (
+				76BFA833285087A5009F5D00 /* Cell */,
+				76BFA8052850551E009F5D00 /* PointPurchasesViewController.swift */,
+				76BFA80728505535009F5D00 /* PointPurchases.storyboard */,
+			);
+			path = "Buy Coin";
+			sourceTree = "<group>";
+		};
+		76BFA809285058A1009F5D00 /* Bases */ = {
+			isa = PBXGroup;
+			children = (
+				76BFA80A285058B2009F5D00 /* BaseViewController.swift */,
+				76BFA82C2850802C009F5D00 /* CustomNavigationBar.swift */,
+			);
+			path = Bases;
+			sourceTree = "<group>";
+		};
+		76BFA833285087A5009F5D00 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				76BFA834285087B8009F5D00 /* PointCell.swift */,
+				76BFA835285087B8009F5D00 /* PointCell.xib */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 		94107F6076936BDF64369F5E /* Pods */ = {
@@ -173,7 +259,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				76B9CC5D284F292E002E80AA /* LaunchScreen.storyboard in Resources */,
+				76BFA80828505535009F5D00 /* PointPurchases.storyboard in Resources */,
+				76BFA7F628504155009F5D00 /* Localizable.strings in Resources */,
 				76B9CC5A284F292E002E80AA /* Assets.xcassets in Resources */,
+				76BFA837285087B8009F5D00 /* PointCell.xib in Resources */,
 				76B9CCA9284F525B002E80AA /* Home.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -249,10 +338,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76BFA82F2850815C009F5D00 /* UIApplication+Extensions.swift in Sources */,
+				76BFA83928508C01009F5D00 /* UITableView+Extensions.swift in Sources */,
 				76B9CC51284F292D002E80AA /* AppDelegate.swift in Sources */,
+				76BFA7FE2850425F009F5D00 /* String+Extentions.swift in Sources */,
+				76BFA836285087B8009F5D00 /* PointCell.swift in Sources */,
 				76B9CC6C284F378B002E80AA /* HomeViewController.swift in Sources */,
+				76BFA7FC285041FE009F5D00 /* UIView+Extensions.swift in Sources */,
+				76724F2728508CC700D16AAA /* Numberic+Extensions.swift in Sources */,
+				76BFA82D2850802C009F5D00 /* CustomNavigationBar.swift in Sources */,
+				76724F292850953F00D16AAA /* NotificationCenter+Extensions.swift in Sources */,
+				76BFA8062850551E009F5D00 /* PointPurchasesViewController.swift in Sources */,
+				76BFA80B285058B2009F5D00 /* BaseViewController.swift in Sources */,
 				76B9CC81284F4333002E80AA /* SceneDelegate.swift in Sources */,
+				76BFA80328504F26009F5D00 /* StoreService.swift in Sources */,
 				76B9CC89284F446E002E80AA /* R.generated.swift in Sources */,
+				76BFA83128508378009F5D00 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +366,15 @@
 				76B9CC5C284F292E002E80AA /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		76BFA7F828504155009F5D00 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76BFA7F728504155009F5D00 /* en */,
+				76BFA7F928504156009F5D00 /* ja */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -394,7 +504,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = ND2DGB68Y6;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -411,6 +522,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = jp.shuta.app.staging;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = Shuta_Staging;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -423,7 +535,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = ND2DGB68Y6;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -440,6 +553,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = jp.shuta.app.staging;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = Shuta_Staging;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
